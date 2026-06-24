@@ -1,0 +1,14 @@
+#Build a hero section: the very top of your page.
+Use HTML for the structure, CSS for the styling, and a bit of JavaScript if you want to add interactivity.
+Make it yours: your name, a short tagline, a photo, whatever feels right.✅
+
+- je veux la phrase too bad qui arrive en differe ✅
+- je veux les etoiles particles js
+- je veux un navigator
+- je veux inclure Github et Linked
+- je veux partitioner l'espace et verifier vue sur telephone
+#483F6B
+#7B749E
+#C9CBE2
+#C295C2
+#9860A4

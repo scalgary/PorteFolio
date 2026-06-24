@@ -1,0 +1,96 @@
+/* ---- reset ---- */
+:root {
+  --primary-text-color: #C9CBE2;
+  --secondary-text-color: #C295C2;
+  --primary-background-color:#9860A4;
+  --secondary-background-color: #7B749E;
+
+;
+}
+/* Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Particles as fixed background */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: var(--primary-background-color);
+}
+
+/* Hero on top, transparent so particles show */
+.hero {
+  position: relative;
+  z-index: 1;
+  background-color: transparent; /* ← key fix */
+  text-align: center;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 350px;
+  width: 90%;
+}
+
+.hero .card-title {
+  font-family: cursive;
+  font-weight: bold;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+}
+
+.hero .card-body {
+  font-weight: bold;
+  font-size: larger;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  border: 3px solid var(--primary-background-color);
+}
+
+.text-from-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideInRight 1s ease-out 1s forwards;
+  color: var(--secondary-text-color);
+  border: none;
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bi {
+    color:var(--primary-text-color);
+  font-size: 2rem; /* Relative to root HTML text size */
+
+
+}
