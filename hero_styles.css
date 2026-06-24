@@ -7,6 +7,8 @@
 
 ;
 }
+
+
 /* Reset */
 body, html {
   margin: 0;
@@ -93,4 +95,42 @@ body, html {
   font-size: 2rem; /* Relative to root HTML text size */
 
 
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: stretch;  /* ← force card to full width */
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100vh !important;
+    padding: 60px 20px !important;
+    border-radius: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .card-title {
+    font-size: 2.5rem !important;
+  }
+
+  .card-body {
+    font-size: 2rem !important;
+  }
+
+  .avatar {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  .bi {
+    font-size: 3rem !important;
+  }
 }

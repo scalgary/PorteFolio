@@ -3,12 +3,7 @@ Use HTML for the structure, CSS for the styling, and a bit of JavaScript if you 
 Make it yours: your name, a short tagline, a photo, whatever feels right.✅
 
 - je veux la phrase too bad qui arrive en differe ✅
-- je veux les etoiles particles js
+- je veux les etoiles particles js ✅
 - je veux un navigator
-- je veux inclure Github et Linked
-- je veux partitioner l'espace et verifier vue sur telephone
-#483F6B
-#7B749E
-#C9CBE2
-#C295C2
-#9860A4
+- je veux inclure Github et Linked ✅
+- je veux partitioner l'espace et verifier vue sur telephone - j'ai essaye mais c'est moyen
